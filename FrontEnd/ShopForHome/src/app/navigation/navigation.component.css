@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(173,216,230,255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.all_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+nav label{
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgba(40,40,40,255);
+    height: 80px;
+    padding-left: 125px;
+    padding-right: 125px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.pad1{
+    margin-left: 40px;
+}
+
+nav button{
+    background-color: rgba(173,216,230,255);
+    height: 30px;
+    width: 75px;
+    color: white;
+    border-radius: 10px;
+}

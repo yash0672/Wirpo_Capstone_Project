@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of productList | filter:searchText">
+        <div class="card col-md-3">
+            <img src="{{item.image}}" alt="">
+            <h5 class="itemdata">{{item.title}}</h5>
+            <p class="itemdata">{{item.description}}</p>
+            <p>{{item.category}}</p>
+            <p><strong>Price:</strong>${{item.price}}</p>
+            <button class="btn btn-primary">Add to cart</button>
+        </div>
+    </ng-container>
+    </div>

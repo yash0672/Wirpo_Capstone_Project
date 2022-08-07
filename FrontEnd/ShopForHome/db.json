@@ -1,0 +1,11 @@
+{
+  "signupUsers": [
+    {
+      "fullName": "Nikhil Gaikwad",
+      "email": "nikhilgaikwad7126@gmail.com",
+      "phone": "8421247126",
+      "password": "nikhil@123",
+      "id": 1
+    }
+  ]
+}

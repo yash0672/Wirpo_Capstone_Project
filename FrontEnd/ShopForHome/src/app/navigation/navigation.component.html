@@ -1,0 +1,19 @@
+<div class="all_nav">
+  <nav>
+    <label>Shop For Home</label>
+    <form [formGroup]="FilterForm" (ngSubmit)="Search()">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search" formControlName="searchText">
+      <button class="btn btn-outline-success " type="submit">Search</button>
+    </form>
+    <ul>
+        <li><a routerLink="/kitchen" >Kitchen & Dining</a></li>
+        <li><a routerLink="/decor" class="pad1">Decor</a></li>
+        <li><a routerLink="/serveware" class="pad1">Serveware</a></li>
+        <li><a routerLink="/garden" class="pad1">Garden & Outdoor</a></li>
+        <li><a routerLink="/login" class="pad1">Login</a></li>
+        <li><a routerLink="/signup" class="pad1">Signup</a></li>
+    </ul>  
+</nav>
+  </div>
+
+  

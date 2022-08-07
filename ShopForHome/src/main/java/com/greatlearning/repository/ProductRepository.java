@@ -6,4 +6,5 @@ import com.greatlearning.entity.product;
 
 public interface ProductRepository extends JpaRepository<product, Long> {
 	public product findByName(String name);
+	
 }

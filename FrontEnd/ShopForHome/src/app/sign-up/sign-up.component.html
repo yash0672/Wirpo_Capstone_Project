@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="card">
+          <div class="">
+            <div class="text-center">
+              <h1>Register</h1>
+            </div>
+            <form>
+            <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+              <div class="">
+                <label for="exampleInputEmail1">Full name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="InputName"
+                  aria-describedby="nameHelp"
+                  placeholder="Enter full name"
+                  formControlName="fullName"
+                />
+              </div>
+              <div class="">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+              formControlName="email"
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="">
+            <label for="exampleInputEmail1">Phone Number</label>
+            <input
+            formControlName="phone"
+              type="Phone"
+              class="form-control"
+              id="InputPhone"
+              aria-describedby="PhoneHelp"
+              placeholder="Enter your mobile no."
+            />
+          </div>
+              <div class="">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                formControlName="password"
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <a routerLink="/login" >Already registered ?Login here</a>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
