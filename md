@@ -1,1 +1,0 @@
-#wipro_capstone_project
